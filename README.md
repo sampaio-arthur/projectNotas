@@ -1,4 +1,4 @@
-v<p align="center">
+<p align="center">
   <img alt="Logo NLW Journey - Rocketseat" src=".github/logo.png" width="200px" />
 </p>
 
