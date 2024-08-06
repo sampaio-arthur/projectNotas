@@ -1,4 +1,4 @@
-// bibliotecas e códigos de terceiros
+
 const formatador = (data) => {
   return {
     dia: {
@@ -13,14 +13,14 @@ const formatador = (data) => {
   }
 }
 
-// object {}
+
 const atividade = {
   nome: "Almoço",
   data: new Date("2024-07-08 10:00"),
   finalizada: true
 }
 
-// lista, array, vetor []
+
 let atividades = [
   atividade,
   {
@@ -35,9 +35,9 @@ let atividades = [
   },
 ]
 
-// atividades = []
 
-// arrow function
+
+
 const criarItemDeAtividade = (atividade) => {
 
   let input = `
@@ -89,7 +89,7 @@ const atualizarListaDeAtividades = () => {
   const section = document.querySelector('section')
   section.innerHTML = ''
 
-  // verificar se a minha lista está vazia
+ 
   if (atividades.length == 0) {
     section.innerHTML = `<p>Nenhuma atividade cadastrada.</p>`
     return

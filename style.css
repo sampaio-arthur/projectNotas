@@ -14,7 +14,7 @@ html, input, select, button, option {
   letter-spacing: -0.02em;
 }
 
-/* app */
+
 #app {
   padding: 40px 20px;
   max-width: 320px;
@@ -22,7 +22,7 @@ html, input, select, button, option {
 }
 
 
-/* form */
+
 #place {
   display: flex;
   align-items: center;
@@ -89,7 +89,7 @@ button {
   border-radius: 12px;
 }
 
-/* main */
+
 main {
   margin-top: 32px;
 }
